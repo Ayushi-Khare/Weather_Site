@@ -9,7 +9,7 @@ body{
 }
 .card{
     width: 90%;
-    max-width: 50%;
+    max-width: 470px;
     background: linear-gradient(130deg, #00fecb, #0c81ca); 
     color: #fff;
     margin: 100px auto 0;
@@ -18,7 +18,7 @@ body{
     text-align: center;
 }
 .search{
-    max-width: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,12 +29,11 @@ body{
     background: #ebfffc;
     color: #555;
     padding: 10px 25px;
-    height: 5%;
+    height: 45px;
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
-    overflow: hidden;
 }
 .search button{
     border: 0;
